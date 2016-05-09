@@ -2,7 +2,7 @@
 Rate limiting middleware for Express applications using Redis
 
 ``` sh
-npm install express-limiter --save
+npm install express-redis-rate-limiter --save
 ```
 
 ``` js
@@ -10,13 +10,13 @@ var express = require('express')
 var app = express()
 var client = require('redis').createClient()
 
-var limiter = require('express-limiter')(app, client)
+var limiter = require('express-redis-rate-limiter')(app, client)
 
 /**
  * you may also pass it an Express 4.0 `Router`
  *
  * router = express.Router()
- * limiter = require('express-limiter')(router, client)
+ * limiter = require('express-redis-rate-limiter')(router, client)
  */
 
 limiter({

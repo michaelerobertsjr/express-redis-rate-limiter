@@ -1,6 +1,6 @@
 {
   "name": "express-redis-rate-limiter",
-  "version": "1.7.0",
+  "version": "1.7.2",
   "description": "Rate limiter middleware for Express applications based on Redis",
   "main": "index.js",
   "author": "Michael Roberts Jr",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ded/express-limiter.git"
+    "url": "git://github.com/michaelerobertsjr/express-redis-rate-limiter.git"
   },
   "bugs": {
-    "url": "https://github.com/ded/express-limiter/issues"
+    "url": "https://github.com/michaelerobertsjr/express-redis-rate-limiter/issues"
   },
-  "homepage": "https://github.com/ded/express-limiter",
+  "homepage": "https://github.com/michaelerobertsjr/express-redis-rate-limiter",
   "devDependencies": {
     "express": ">4.13.0",
     "redis": "~2.6.0-2",
